@@ -1,0 +1,28 @@
+{
+  "name": "aws-ncs-rds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gueon7866/aws-ncs-rds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gueon7866/aws-ncs-rds/issues"
+  },
+  "homepage": "https://github.com/gueon7866/aws-ncs-rds#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.0",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7"
+  }
+}
